@@ -20,6 +20,11 @@ Then, inside the project
 npm install
 ```
 
+Edit your url for backend socket in src/server.js (line: 20)
+```bash
+const socket = io('http://your-ip:3011')
+```
+
 To start frontend
 ```bash
 npm start
@@ -29,4 +34,3 @@ To start backend (socket)
 ```bash
 node server
 ```
-
