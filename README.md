@@ -1,6 +1,6 @@
-# Frontend React for api saga
+# Frontend React for Tickets
 
-**Description:** Frontend React for Api Users
+**Description:** Frontend React for Tickets
 
 ## Enviroment
 
@@ -12,17 +12,21 @@
 
 Clone project 
 ```bash
-git clone https://github.com/fpretell/frontendsaga.git
+git clone https://github.com/fpretell/tickets.git
 ```
 
-Then, inside node_server
+Then, inside the project
 ```bash
 npm install
 ```
 
-To start server
+To start frontend
 ```bash
 npm start
 ```
 
+To start backend (socket)
+```bash
+node server
+```
 
