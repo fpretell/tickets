@@ -6,7 +6,7 @@ export const GetTicket = styled.span`
     border-radius: 5px;
     padding: 1rem;
     margin: 0.5rem auto;
-    width: 11rem;
+    width: 20rem;
     background: transparent;
     color: grey;
     border: 1px solid #e4e4e4;
@@ -28,7 +28,6 @@ export const TicketItem = styled.div`
     color:black;
     font-weight: bold;
     border-bottom: 1px solid #e2e2e2;
-    width: 20rem;
     margin: auto;
     padding 1rem 0;
 `
@@ -51,7 +50,7 @@ export const ActionTicket = styled.button`
     background-color: #478af5;
     color : white;
     font-size: 20px;
-    width: 30%;
+    min-width: 20rem;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
